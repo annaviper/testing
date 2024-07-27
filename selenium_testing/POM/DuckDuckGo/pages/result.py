@@ -3,6 +3,7 @@ from selenium.webdriver.common.by import By
 
 class DuckDuckGoResultPage:
 
+	# Web Elements. Could also be added to __init__ method.
 	SEARCH_INPUT = (By.NAME, 'q')
 	RESULT_LINKS = (By.CSS_SELECTOR, 'result-title-a')
 
